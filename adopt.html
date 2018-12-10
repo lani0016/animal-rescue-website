@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Registration Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <section>
+    <div class=" island-2 gutter max-length">
+
+      <header role="banner">
+        <h1>Form Page</h1>
+        <nav id="nav" tabindex="0" class="nav" role="navigation">
+          <div class="embed embed-2by2">
+            <img class="embed-item" src="images/logo.png" alt="logo" aria-details="beanbag-conferencing-logo">
+          </div>
+          <ul class="nav list-group-inline">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="current" href="adopt.html">Adoption Form</a></li>
+            <li><a href="rescues.html">Adoptable Pets!</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="main" tabindex="0" class="main" role="main">
+        <figure class="embed embed-16by9">
+          <img class="embed-item" src="images/baldwinandaugusta.jpeg" alt="">
+        </figure>
+        <section class="contact pad-t-2 pad-b-2">
+          <h2>Welcome soon to be Senior Pet Best Friend!</h2>
+          <p class="mega push">We’re looking to help super-awesome human beings who want to make an old pet happy again!</p>
+          <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+            <fieldset class="unit push xs-1">
+              <legend class="giga">Personal details</legend>
+              <div class="grid">
+                <div class="one unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+                  <label for="name">Name</label>
+                  <input id="name" name="name">
+                </div>
+                <div class="one unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+                  <label for="age">Age</label>
+                  <input id="age" required>
+                </div>
+                <div class="one unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+                  <label for="email">Your email</label>
+                  <input id="email" type="email" required>
+                </div>
+                <div class=" one unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+                  <label for="fitness">Pet of Choice</label>
+                  <select id="fitness" name="fitness">
+                    <option>- Sweet Pea</option>
+                    <option>- Captain</option>
+                    <option>- Bandjo</option>
+                    <option>- Mr. Wrinkles</option>
+
+                  </select>
+                </div>
+              </div>
+              <div class="one push">
+                <label for="details">Address</label>
+                <textarea id="details" name="address" required> </textarea>
+              </div>
+            </fieldset>
+            <fieldset class="unit xs-1">
+              <legend> Anything you'd like to add?</legend>
+            </fieldset>
+            <div class=" unit xs-1 push">
+              <label for="why">Why did you choose us; How can we be better?</label>
+              <textarea id="why" name="why" required> </textarea>
+            </div>
+            <div>
+              <button class="btn mega" type="submit">Sign Me Up!</button>
+            </div>
+            <div>
+              <input type="hidden" name="_subject" value="New Bean Bag Member">
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+  </section>
+
+  <footer id="contentinfo" tabindex="0" class="contentinfo" role="contentinfo">
+    <small>© Beanbag-conferencing.</small>
+  </footer>
+</body>
+</html>
