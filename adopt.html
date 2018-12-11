@@ -2,7 +2,9 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Registration Form</title>
+  <title class="zetta">Registration Form</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -23,8 +25,8 @@
       <header role="banner">
         <h1>Form Page</h1>
         <nav id="nav" tabindex="0" class="nav" role="navigation">
-          <div class="embed embed-2by2">
-            <img class="embed-item" src="images/logo.png" alt="logo" aria-details="beanbag-conferencing-logo">
+          <div>
+            <img tabindex="0" src="images/favicon-196.svg" alt="logo" aria-details="happy-tails-logo">
           </div>
           <ul class="nav list-group-inline">
             <li><a href="index.html">Home</a></li>
@@ -34,11 +36,11 @@
         </nav>
       </header>
       <main id="main" tabindex="0" class="main" role="main">
-        <figure class="embed embed-16by9">
-          <img class="embed-item" src="images/baldwinandaugusta.jpeg" alt="">
+        <figure role="group" class="embed embed-16by9">
+          <img class="embed-item" src="images/in-praise-of-senior-dogs.jpg" alt="">
         </figure>
         <section class="contact pad-t-2 pad-b-2">
-          <h2>Welcome soon to be Senior Pet Best Friend!</h2>
+          <h2 class="yotta">Welcome soon to be Senior Pet Best Friend!</h2>
           <p class="mega push">We’re looking to help super-awesome human beings who want to make an old pet happy again!</p>
           <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
             <fieldset class="unit push xs-1">
@@ -59,10 +61,13 @@
                 <div class=" one unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
                   <label for="fitness">Pet of Choice</label>
                   <select id="fitness" name="fitness">
-                    <option>- Sweet Pea</option>
+                    <option>- Arlo</option>
                     <option>- Captain</option>
-                    <option>- Bandjo</option>
-                    <option>- Mr. Wrinkles</option>
+                    <option>- Vinny</option>
+                    <option>- George</option>
+                    <option>- Nana</option>
+                    <option>- Pico</option>
+                    <option>- Candy</option>
 
                   </select>
                 </div>
@@ -80,13 +85,16 @@
               <textarea id="why" name="why" required> </textarea>
             </div>
             <div>
-              <button class="btn mega" type="submit">Sign Me Up!</button>
+              <button class="btn mega" type="submit">I'd like to adopt!</button>
             </div>
             <div>
-              <input type="hidden" name="_subject" value="New Bean Bag Member">
+              <input type="hidden" name="_subject" value="New Senior pet applicant">
             </div>
           </form>
         </section>
+        <article class="btn-about">
+          <btn>about</btn>
+        </article>
       </main>
     </div>
   </section>
